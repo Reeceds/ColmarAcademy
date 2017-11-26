@@ -1,0 +1,473 @@
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', arial;
+  color: #333333;
+}
+
+body {
+  line-height: 1.5rem;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.175em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 2.75rem;
+  font-weight: bold;
+  line-height: 1.175em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.main-left-col {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 60%;
+}
+
+.main-left-col img {
+  display: block;
+  width: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  color: #0A2037;
+}
+
+
+/* header nav */
+
+#mobile-header {
+  display: none;
+}
+
+#desktop-header {
+  display: flex;
+  width: 100%;
+}
+
+header {
+  height: 4rem;
+  display: flex;
+  padding: 0 1.5rem;
+  background-color: whitesmoke;
+  border-bottom: 1px solid lightgrey;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+header li {
+  transition: 175ms ease-in-out 50ms;
+}
+
+header li:hover {
+  color: #59B2F6;
+}
+
+.logo h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #59B2F6;
+}
+
+.logo span {
+  color: #0A2037;
+}
+
+.logo img {
+  height: 2rem;
+  margin-right: .25rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  align-items: center;
+  margin-left: 1rem;
+  color: #0A2037;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+
+/* banner section */
+
+#banner-section.container {
+  background-color: #BEE1EF;
+  display: flex;
+  padding-top: 6rem;
+}
+
+.banner-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 490px;
+  margin-right: 1.5rem;
+}
+
+.banner-button {
+  padding: .5rem;
+  background-color: #0A2037;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  transition: 175ms ease-in-out 50ms;
+}
+
+.banner-button:hover {
+  background-color: #59B2F6;
+}
+
+.banner-cta h1 {
+  color: #0A2037;
+}
+
+.banner-cta h3 {
+  color: #59B2F6;
+}
+
+
+/* articles section */
+
+#articles-section.container {
+  display: flex;
+}
+
+.article-text {
+  margin-left: 1rem;
+  width: 65%;
+}
+
+.article-text span {
+  color: #59B2F6;
+  text-decoration:
+}
+
+.article-right-col {
+  width: 40%;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 1rem 1.5rem 1rem 1rem;
+  background-color: white;
+  transition: 250ms ease-in-out 50ms;
+}
+
+.article:hover {
+  background-color: #0A2037;
+  color: white;
+}
+
+.article img {
+  width: 35%;
+  height: auto;
+}
+
+.mobile-article-image {
+  display: none;
+}
+
+
+/* courses section */
+
+#courses-section.container {
+  background-color: #BEE1EF;
+  padding-bottom: 0;
+}
+
+.courses-row {
+  margin: 0 3.5rem;
+  flex-wrap: ;
+  justify-content: center;
+  display: flex;
+}
+
+.course {
+  text-align: left;
+  background-color: white;
+  margin: 0 1rem 2rem 1rem;
+  width: 32%;
+  transition: 250ms ease-in-out 50ms;
+}
+
+.course:hover {
+  background-color: #0A2037;
+  color: white;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course div {
+  padding: 1rem 1.5rem .5rem 1.5rem;
+}
+
+
+/* thesis section */
+
+#thesis-section {
+  background-color: white;
+}
+
+.thesis-grouping {
+  display: flex;
+}
+
+
+/* footer */
+
+footer {
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  background-color: whitesmoke;
+  display: flex;
+  font-size: .75rem;
+}
+
+footer span {
+  display: block;
+  flex-grow: 1;
+}
+
+footer li {
+  margin-left: 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  transition: 175ms ease-in-out 50ms;
+}
+
+footer li:hover {
+  color: #59B2F6;
+}
+
+footer ul {
+  display: flex;
+}
+
+
+
+/**** media queries ****/
+
+/* mobile */
+
+@media only screen and (max-width: 480px) {
+
+.section-header {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+
+/* header section */
+
+#desktop-header {
+  display: none;
+}
+
+#mobile-header {
+  display: flex;
+}
+
+#mobile-header ul {
+  width: 100%;
+  justify-content: space-around;
+}
+
+#mobile-header li {
+  display: flex;
+}
+
+
+/* banner section */
+
+#banner-section.container {
+  flex-direction: column;
+  padding: 4rem 0 0 0;
+}
+
+#banner-section h1 {
+  margin-top: 0;
+}
+
+.main-left-col {
+  padding: 0 0;
+  max-width: 100%;
+}
+
+.banner-cta {
+  width: 100%;
+  margin-right: 0;
+  padding: 2rem 1rem;
+}
+
+
+/* articles section */
+
+#articles-section .main-left-col {
+  display: none;
+}
+
+#articles-section.container {
+  padding: 0;
+
+}
+
+.desktop-article-image {
+  display: none;
+}
+
+.mobile-article-image {
+  display: block;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article-right-col {
+  width: 100%;
+}
+
+.article {
+  display: block;
+  border-bottom: 0;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.article-text {
+  width: 100%;
+  margin: 0 0;
+  padding: 1rem;
+}
+
+.article-text p {
+  display: block;
+}
+
+
+/* courses sectoin */
+
+#courses-section.container {
+  padding-bottom: 1.5rem;
+}
+
+.courses-row {
+  margin: 0 1rem;
+  flex-direction: column;
+}
+
+.course {
+  width: 100%;
+  margin: 0 0 .5rem 0;
+  padding: 0;
+}
+
+.course h3 {
+  margin: 0;
+}
+
+.course img, h4, p {
+  display: none;
+}
+
+.course div {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+
+/* thesis section */
+
+#thesis-section .article-right-col {
+  display: none;
+}
+
+#thesis-section .main-left-col h3, p {
+  display: none;
+}
+
+#thesis-section.container {
+  padding-bottom: 1.5rem;
+}
+
+
+/* footer */
+
+footer {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+footer nav {
+  display: none;
+}
+
+}
